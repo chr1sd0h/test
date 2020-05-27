@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"> 
+  <title>Wuerfelverdopplung nach Eratosthenes</title>
+  <meta name="author" content="Jochen Ziegenbalg">
+  <meta name="keywords" content="Würfelverdopplung, Wuerfelverdopplung, Eratosthenes, Delisches Problem">  
+  <style>    
+    p {margin: 10px }
+  </style>  
+  <!-- QQQ:   p {margin-bottom: 10px }  -->  
+</head>
+
+<BODY LINK="#0000ff" VLINK="#800080" bgcolor="#e0ffe0" alink="#ff0000">
+
+<center>
+<h2> Die Verdopplung des Würfels </h2>
+<p> ein klassisches Problem </p> 
+</center>
+
+<p> Das "delische" Problem stammt aus der griechischen Antike.&nbsp; Es bestand 
+darin, zu einem gegebenen Würfel einen solchen zu konstruieren, der
+das doppelte Volumen hat. &nbsp; Als Konstruktionswerkzeuge waren zunächst
+nur Zirkel und Lineal zugelassen - das Lineal ohne Markierungen. &nbsp;
+Die Lösung des Problems setzt, in heutiger Sprechweise, die Konstruktion
+der dritten Wurzel von 2 voraus. &nbsp; Dies ist, wie wir heute wissen,
+mit den klassischen Werkzeugen (Zirkel und Lineal) unmöglich. </p> 
+
+<p> Da sich das Problem hartnäckig einer klassischen Lösung entzog, gab es schon frühzeitig Versuche, andere Werkzeuge heranzuziehen.&nbsp; Von dem griechischen, in Alexandria wirkenden, Mathematiker Eratosthenes (<i>Eratosthenes von Kyrene, ca. 276-194 v.Chr.</i>) stammt die im folgenden dargestellte Konstruktion mit Hilfe von quadratischen Plättchen, die sich entlang
+einer Schiene verschieben lassen. &nbsp; Streng genommen löste Eratosthenes damit das Problem der <i>mittleren Proportionalen</i>:&nbsp;  
+Zu gegebenen Strecken <i>a</i>&nbsp; und &nbsp; <i>b</i> &nbsp; konstruiere
+man ihre "mittleren Proportionalen", also Strecken <i>x</i>&nbsp; und&nbsp; <i>y</i>&nbsp; mit der Eigenschaft:
+<center>
+<p><i>a</i> : <i>x</i> = <i>x</i> : <i>y</i> = <i>y</i> : <i>b</i></center>
+
+<p>Setzt man&nbsp; <i>b</i> = 1, so ist die mittlere Proportionale <i>y</i>&nbsp; gleich der dritten Wurzeln von &nbsp; <i>a</i> &nbsp; und das delische Problem ist gelöst. </p> 
+
+<p> Der von Eratosthenes angegebene Mechanismus besteht aus einem Paar von parallelen Schienen, auf denen sich drei kongruente quadratische Plättchen mit den Grundseiten AB, EC und FD verschieben lassen. &nbsp; Die Strecke &nbsp; <i>a</i> &nbsp; entspricht dem Abstand der Schienen; die Strecke &nbsp; 
+<i>b</i> &nbsp; wird am rechten Rand auf dem am weitesten rechts liegenden Quadrat markiert (siehe Simulation):&nbsp; <i>a</i> = AA' ;&nbsp; <i>b</i> =  DD'.&nbsp;&nbsp; Auf den quadratischen Plättchen sind die Diagonalen eingezeichnet.&nbsp; Eine weitere Schiene ist im Punkt &nbsp;
+A'&nbsp; drehbar gelagert, ihre Richtung ist dadurch festgelegt, dass 
+sie stets durch den Punkt &nbsp; D' &nbsp; läuft.&nbsp;  Dabei schneidet die Schiene die rechten vertikalen Seiten der anderen Quadrate in den Punkten &nbsp; B'&nbsp; und &nbsp; C'. </p> 
+<p> Die Aufgabe besteht nun darin, die quadratischen Plättchen so zu verschieben, dass die Punkte B' und C' auf den jeweiligen Diagonalen liegen.&nbsp; Ist dies der Fall, so lässt sich durch wiederholte Anwendung des Strahlensatzes zeigen, dass die Strecken &nbsp;BB'&nbsp; und&nbsp; CC'&nbsp; die mittleren Proportionalen der Strecken &nbsp;AA'&nbsp; und &nbsp;DD'&nbsp;
+sind.  </p> 
+
+<p> Die Länge der Strecke &nbsp;<i>a</i>&nbsp; ist durch den Abstand der Schienen fest vorgegeben.&nbsp; Für andere Werte von &nbsp;<i>a</i>&nbsp; und&nbsp; <i>b</i>&nbsp;
+lassen sich die mittleren Proportionalen dann mit Hilfe des Prinzips der Ähnlichkeit bestimmen. </p> 
+<p> Der von Eratosthenes angegebene Mechanismus wird im folgenden mit Hilfe der Geometrie-Software &nbsp;<i>Cinderella</i>&nbsp; simuliert. &nbsp; Dabei kann an allen gross gezeichneten Punkten &quot;gezogen&quot; werden. &nbsp; Die Plättchen lassen sich verschieben, indem man sie jeweils an der linken unteren Ecke "anfasst".  </p>
+
+<p> Beim Experimentieren stellt man fest, dass man die Plättchen in der Regel mehrfach ausrichten
+(nachjustieren) muss, bis sich eine visuell befriedigende Situation einstellt.  </p> 
+
+<p> Im Gegensatz zu dem von Eratosthenes konstruierten Mechanismus kann in dem in der Simulation verwendeten &quot;virtuellen&quot; Mechanismus auch der Abstand der Schienen leicht modifiziert werden - ein Konstruktionsbaukasten für solch einen Mechanismen hätte Eratosthenes vermutlich gut gefallen. </p> 
+
+<div style="position:relative; overflow: hidden; padding-top: 50%;">
+<iframe style="position: absolute; top: 0; left: 0; width: 700px; height: 500px; border: 0;" src="Eratosthenes-Wuerfelverdopplung-Simulation.html" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<p> Zur Realisierung der folgenden Simulation sollte lokal eine lauffähige Version des Programms Cinderella installiert sein.  <br> 
+  <a href="Eratosthenes-Wuerfelverdopplung-Simulation.cdy"> Würfelverdopplung nach Eratosthenes - Simulation  </a>  <br> 
+Created with <a href="http://www.cinderella.de">Cinderella</a>  </> 
+ 
+<p>Jochen Ziegenbalg </p> 
+
+</body>
+</html>
